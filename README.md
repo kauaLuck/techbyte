@@ -1,10 +1,10 @@
-# 🛒 API REST de Produtos - Spring Boot
+#  API REST de Produtos - Spring Boot
 
 Projeto desenvolvido em Java com Spring Boot para disponibilizar um serviço REST que expõe os dados de produtos.
 
 ---
 
-## 📌 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Java 25+** (ou versão equivalente)
 * **Spring Boot** (Spring Web, Spring MVC)
@@ -13,18 +13,18 @@ Projeto desenvolvido em Java com Spring Boot para disponibilizar um serviço RES
 
 ---
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 - Exposição de endpoint REST (`GET /produto`) para retornar os detalhes de um produto em formato JSON.
 - Manipulação de dados com tipos adequados (`BigDecimal` para valores monetários).
 
 ---
 
-## 🛠️ Como Executar o Projeto
+##  Como Executar o Projeto
 
 1. **Clonar o repositório:**
    ```bash
-   git clone https://github.com/teu-usuario/teu-repositorio.git
+   git clone https://github.com/kauaLuck/techbyte
    ```
 
 2. **Navegar até a pasta do projeto:**
@@ -50,11 +50,16 @@ Projeto desenvolvido em Java com Spring Boot para disponibilizar um serviço RES
 
 Abaixo está a implementação da Controller responsável por expor o endpoint `/produto`:
 
+## Na WEB:
 <img width="591" height="205" alt="image" src="https://github.com/user-attachments/assets/f6411fe5-785b-41de-bf30-27fbb64af481" />
+
+## No POSTMAN:
+<img width="685" height="190" alt="image" src="https://github.com/user-attachments/assets/3f53e3ba-332d-41d0-870f-550c1f87b1ed" />
+
 
 ---
 
-## 🗄️ Modelagem do Banco de Dados
+##  Modelagem do Banco de Dados
 
 Abaixo está a representação da estrutura da tabela `Produto` no banco de dados:
 
@@ -72,8 +77,3 @@ CREATE TABLE produto (
 );
 ```
 
----
-
-## ✉️ Contato
-
-Desenvolvido por **Teu Nome** - [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
